@@ -5,4 +5,5 @@ public class GerenciadorCaminhoes {
 	public String carga;
 	public boolean carregado;
 	public String placa;
+	public boolean perecivel;
 }
