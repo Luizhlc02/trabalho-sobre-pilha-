@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class generica <T> {
 	
 	    private ArrayList<T> pilha;
-
+	    
 	    public void Pilha() {
 	        pilha = new ArrayList<T>();
 	    }
@@ -36,9 +36,6 @@ public class generica <T> {
 	        return pilha.get(pilha.size() - 1);
 	    }
 
-	    public void clear() {
-	        pilha.clear();
-	    }
 }
 	
 
